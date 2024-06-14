@@ -22,4 +22,4 @@ Before you begin, ensure you have the following software installed on your compu
    First, clone the repository to your local machine. Open your terminal or command prompt and run:
 
    ```bash
-   git clone https://github.com/original-repo/jamort-landing-page.git
+   git clone https://github.com/Jamor-Technology/FE.git
