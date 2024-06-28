@@ -1,0 +1,25 @@
+/* variables.css */
+
+/* Colors */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --background-color: #f8f9fa;
+  --text-color: #343a40;
+  --color: var(--text-color);
+}
+
+/* Typography */
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --font-size-base: 16px;
+  --font-size-large: 24px;
+  --font-size-small: 12px;
+}
+
+/* Spacing */
+:root {
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+}
