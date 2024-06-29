@@ -2,25 +2,33 @@ import React from 'react';
 import ServiceCard from '../ServiceCard/ServiceCard';
 import './Services.css';
 
+import carbonDevelopmentIcon from '../../assets/icons/carbon-development.svg';
+import riToolsFillIcon from '../../assets/icons/ri-tools-fill.svg';
+import crowdsourceIcon from '../../assets/icons/simple-icons-crowdsource.svg';
+import arrowIcon from '../../assets/icons/arrow.svg';
+
 const Services = () => {
   const services = [
     {
-      iconSrc: 'https://c.animaapp.com/fN6E2pVi/img/carbon-development.svg',
+      iconSrc: carbonDevelopmentIcon,
       title: 'Internship Development',
       description: 'At Jamor Technology, we believe in fostering the next generation of tech innovators through our comprehensive Internship Development Program. Our program is designed to provide aspiring professionals with hands-on experience, mentorship from industry experts, and the opportunity to work on real-world projects.',
-      learnMoreLink: '#'
+      learnMoreLink: '#',
+      arrowIconSrc: arrowIcon
     },
     {
-      iconSrc: 'https://c.animaapp.com/fN6E2pVi/img/ri-tools-fill.svg',
+      iconSrc: riToolsFillIcon,
       title: 'Technology Solution',
       description: 'Jamor Technology provide innovative and tailored technology solutions to meet the unique needs of businesses and individuals. Our expertise spans across a range of services, including advanced software development, robust cybersecurity measures, seamless cloud computing integration, and cutting-edge artificial intelligence applications.',
-      learnMoreLink: '#'
+      learnMoreLink: '#',
+      arrowIconSrc: arrowIcon
     },
     {
-      iconSrc: 'https://c.animaapp.com/fN6E2pVi/img/simple-icons-crowdsource.svg',
+      iconSrc: crowdsourceIcon,
       title: 'Outsourcing',
       description: 'Our specialization is base on providing top-tier outsourcing solutions that help businesses streamline their operations and enhance efficiency. Our comprehensive range of services includes software development, IT support, and customer service, all tailored to meet the unique needs of our clients.',
-      learnMoreLink: '#'
+      learnMoreLink: '#',
+      arrowIconSrc: arrowIcon
     }
   ];
 
@@ -36,6 +44,7 @@ const Services = () => {
             title={service.title}
             description={service.description}
             learnMoreLink={service.learnMoreLink}
+            arrowIconSrc={service.arrowIconSrc}
           />
         ))}
       </div>

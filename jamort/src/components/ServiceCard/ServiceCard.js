@@ -1,9 +1,8 @@
 import React from "react";
 import './ServiceCard.css';
-import icon from '../../assets/icons/arrow.svg';
 
 
-const ServiceCard = ({ iconSrc, title, description, learnMoreLink }) => {
+const ServiceCard = ({ iconSrc, title, description, learnMoreLink, arrowIconSrc }) => {
     return (
         <div className='service-card'>
             <img src={iconSrc} alt={title} className='service-icon'></img>
@@ -13,7 +12,7 @@ const ServiceCard = ({ iconSrc, title, description, learnMoreLink }) => {
               Learn More
               <img 
                 className="learn-more-icon"
-                src={icon}
+                src={arrowIconSrc}
                 alt="Arrow Icon"
               /> 
             </a>
