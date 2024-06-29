@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-import logo from '../../assets/images/jamorT-logo.png';
+import logo from '../../assets/logos/jamorT-logo.svg';
 
 const Header = () => {
     return (

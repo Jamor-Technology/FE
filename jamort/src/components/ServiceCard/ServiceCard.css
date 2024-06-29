@@ -1,0 +1,25 @@
+.service-card {
+  text-align: center;
+}
+
+.service-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.service-title {
+  color: #00451a;
+}
+
+.service-description {
+  color: #000000;
+}
+
+.learn-more {
+  align-items: center;
+}
+
+.learn-more-icon {
+  height: 24px;
+  width: 24px;
+}
