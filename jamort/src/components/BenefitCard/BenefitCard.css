@@ -1,0 +1,5 @@
+/* styles.css */
+.benefit-card ul {
+  list-style: none; /* Removes the default list marker */
+  padding: 0; /* Removes default padding */
+}

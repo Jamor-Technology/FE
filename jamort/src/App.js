@@ -8,6 +8,7 @@ import VerifyEmail from './screens/VerifyEmail';
 import ChooseNewPassword from './screens/ChooseNewPassword';
 import ResetPasswordSuccess from './screens/ResetPasswordSuccess';
 import OurServices from './screens/OurServices';
+import './variables.css';
 
 function App() {
   return (
