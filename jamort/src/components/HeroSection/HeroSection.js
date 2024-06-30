@@ -5,6 +5,7 @@ import ellipse1 from "../../assets/images/Ellipse1.png";
 import ellipse2 from "../../assets/images/Ellipse2.png";
 import ellipse3 from "../../assets/images/Ellipse3.png";
 import ellipse4 from "../../assets/images/Ellipse4.png";
+import ImageBanner from "../HeroImageBanner/ImageBanner";
 
 const ellipses = [ellipse4, ellipse3, ellipse2, ellipse1];
 
@@ -48,12 +49,7 @@ const HeroSection = () => {
           </a>
         </div>
         <div className="right-content">
-          {/* Placeholder for prototype image carousel */}
-          <img
-            //src={require("../../assets/images/prototype.jpg").default} 
-            alt="Prototype"
-            className="prototype-image"
-          />
+          <ImageBanner />
         </div>
       </div>
     </div>
