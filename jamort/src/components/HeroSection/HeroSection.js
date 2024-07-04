@@ -32,7 +32,6 @@ const HeroSection = () => {
               Company <img src={arrowIcon} alt="arrow" />
             </button>
           </div>
-          <div className="card">
             <div className="images-testimony">
               <div className="ellipses">
                 {ellipses.map((src, index) => (
@@ -49,7 +48,6 @@ const HeroSection = () => {
             <a href="#learn-more" className="learn-more">
               Learn More <img src={arrowIcon} alt="arrow" />
             </a>
-          </div>
         </div>
         <div className="right-content">
           <ImageBanner />
