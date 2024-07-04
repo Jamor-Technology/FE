@@ -1,0 +1,57 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+}
+
+.banner-container {
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  grid-template-rows: 180px 180px 180px;
+  grid-template-areas: 
+    "image1 image1 image2"
+    "image3 image4 image2"
+    "image3 image5 image5";
+  gap: 10px;
+}
+
+.image {
+  transition: all 1s ease-in-out;
+}
+
+.image1 {
+  grid-area: image1;
+  width: 100%;
+  height: 100%;
+}
+
+.image2 {
+  grid-area: image2;
+  width: 100%;
+  height: 100%;
+  }
+
+.image3 {
+  grid-area: image3;
+  width: 100%;
+  height: 100%;
+}
+
+.image4 {
+  grid-area: image4;
+  height: 100%;
+  width: 100%;
+}
+
+.image5 {
+  grid-area: image5;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-container.reduced .image {
+  transform: scale(0.9);
+}
+
+/* Exclude image4 from scaling */
+.banner-container.reduced .image4 {
+  transform: none;
+}

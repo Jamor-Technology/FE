@@ -1,0 +1,38 @@
+.faq-card {
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.question-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq-question {
+  margin: 0;
+  flex: 1;
+}
+
+.toggle-answer {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.arrow-icon {
+  width: 24px; 
+  height: 24px; 
+  transition: transform 0.3s ease;
+}
+
+.faq-answer {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
