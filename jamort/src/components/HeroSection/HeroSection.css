@@ -1,0 +1,33 @@
+/* General style for the HeroSection component */
+
+.hero-body {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin-top: 64px;
+  margin-left: 81px;
+}
+
+.left-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  margin-right: 132px;
+}
+
+
+.card h3 {
+  font-size: var(--header-font-size-xlarge);
+  color: var(--secondary-color);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: var(--font-size-large);
+  color: var(--tex-primary-color);
+  font-weight: var(--font-weight-regular);
+  margin-bottom: 40px;
+}

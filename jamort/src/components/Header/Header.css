@@ -1,9 +1,79 @@
+/* Styles for the Header component */
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-medium);
+  max-height: 115px;
+  margin: 0 auto;
+  padding: 0 54.5px;
   background-color: var(--background-color);
   color: var(text-color);
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 124px;
+  height: 115px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-primary-color);
+  text-decoration: none;
+  padding: var(--spacing-small) 0;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-links a.active {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-medium);
+}
+
+.login-button,
+.signup-button {
+  padding: var(--padding-medium) calc(3 * var(--font-size-medium));
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button {
+  background-color: var(--text-secondary-color);
+  color: var(--text-secondary-color-purple);
+  border: 1px solid var(--border-color);
+}
+
+.signup-button {
+  background-color: var(--primary-color);
+  color: var(--text-secondary-color);
+}
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: var(--secondary-color);
+}

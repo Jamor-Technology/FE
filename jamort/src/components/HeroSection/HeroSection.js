@@ -6,6 +6,7 @@ import ellipse2 from "../../assets/images/Ellipse2.png";
 import ellipse3 from "../../assets/images/Ellipse3.png";
 import ellipse4 from "../../assets/images/Ellipse4.png";
 import ImageBanner from "../HeroImageBanner/ImageBanner";
+import "./HeroSection.css";
 
 const ellipses = [ellipse4, ellipse3, ellipse2, ellipse1];
 
