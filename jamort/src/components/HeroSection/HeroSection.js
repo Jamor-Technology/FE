@@ -6,6 +6,7 @@ import ellipse2 from "../../assets/images/Ellipse2.png";
 import ellipse3 from "../../assets/images/Ellipse3.png";
 import ellipse4 from "../../assets/images/Ellipse4.png";
 import ImageBanner from "../HeroImageBanner/ImageBanner";
+import "./HeroSection.css";
 
 const ellipses = [ellipse4, ellipse3, ellipse2, ellipse1];
 
@@ -31,22 +32,22 @@ const HeroSection = () => {
               Company <img src={arrowIcon} alt="arrow" />
             </button>
           </div>
-          <div className="images-testimony">
-            <div className="ellipses">
-              {ellipses.map((src, index) => (
-                <img
-                  key={index}
-                  src={src}
-                  alt={`Ellipse ${index + 1}`}
-                  className="ellipse"
-                />
-              ))}
+            <div className="images-testimony">
+              <div className="ellipses">
+                {ellipses.map((src, index) => (
+                  <img
+                    key={index}
+                    src={src}
+                    alt={`Ellipse ${index + 1}`}
+                    className="ellipse"
+                  />
+                ))}
+              </div>
               <span className="testimony">Over 110k+ professionals trained.</span>
             </div>
-          </div>
-          <a href="#learn-more" className="learn-more">
-            Learn More <img src={arrowIcon} alt="arrow" />
-          </a>
+            <a href="#learn-more" className="learn-more">
+              Learn More <img src={arrowIcon} alt="arrow" />
+            </a>
         </div>
         <div className="right-content">
           <ImageBanner />
