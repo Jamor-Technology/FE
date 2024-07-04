@@ -32,22 +32,24 @@ const HeroSection = () => {
               Company <img src={arrowIcon} alt="arrow" />
             </button>
           </div>
-          <div className="images-testimony">
-            <div className="ellipses">
-              {ellipses.map((src, index) => (
-                <img
-                  key={index}
-                  src={src}
-                  alt={`Ellipse ${index + 1}`}
-                  className="ellipse"
-                />
-              ))}
+          <div className="card">
+            <div className="images-testimony">
+              <div className="ellipses">
+                {ellipses.map((src, index) => (
+                  <img
+                    key={index}
+                    src={src}
+                    alt={`Ellipse ${index + 1}`}
+                    className="ellipse"
+                  />
+                ))}
+              </div>
               <span className="testimony">Over 110k+ professionals trained.</span>
             </div>
+            <a href="#learn-more" className="learn-more">
+              Learn More <img src={arrowIcon} alt="arrow" />
+            </a>
           </div>
-          <a href="#learn-more" className="learn-more">
-            Learn More <img src={arrowIcon} alt="arrow" />
-          </a>
         </div>
         <div className="right-content">
           <ImageBanner />
