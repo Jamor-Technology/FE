@@ -1,8 +1,8 @@
 /* variables.css */
 :root {
 /* Font Typography */
---font-family-body: Arimo Hebrew Subset, sans-serif;
---font-family-heading: abril fatface, sans-serif;
+--font-family-body: 'Arimo Hebrew Subset';
+--font-family-heading: 'Abril fatface';
 
 
 /* Colors */
