@@ -57,22 +57,6 @@ const Header = () => {
         >
           Investors' Corner
         </Link>
-        <Link
-          to="/sign-in"
-          className={`nav-link ${location.pathname === '/sign-in' ? 'active' : ''}`}
-          onClick={() => setMenuActive(false)}
-          data-testid="signin-link"
-        >
-          Sign In
-        </Link>
-        <Link
-          to="/sign-up"
-          className={`nav-link ${location.pathname === '/sign-up' ? 'active' : ''}`}
-          onClick={() => setMenuActive(false)}
-          data-testid="signup-link"
-        >
-          Sign Up
-        </Link>
       </nav>
       <div className='auth-buttons'>
         <Link to="/sign-in" className='login-button'>Login</Link>
