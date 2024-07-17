@@ -1,0 +1,63 @@
+.about-us-section {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 130px;
+  padding-bottom: 130px;
+  margin: 0;
+}
+
+.about-us-title {
+  color: var(--text-secondary-color);
+  font-family: var(--font-family-heading);
+  font-size: var(--header-font-size-xlarge);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-small);
+  margin-top: 0;
+}
+
+.about-us-content {
+  font-size: var(--font-size-small);
+  font-family: var(--font-family-body);
+  color: var(--text-secondary-color);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+.about-us-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.about-us-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-small);
+  padding: var(--padding-medium) calc(3 * var(--font-size-medium));
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: var(--text-secondary-color);
+  color: var(--text-secondary-color-purple);
+  border: none;
+}
+
+.about-us-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.about-us-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-secondary-color);
+}
+
+.about-us-button:hover img {
+  filter: brightness(0) invert(1);
+}
