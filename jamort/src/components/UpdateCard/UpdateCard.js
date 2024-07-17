@@ -4,7 +4,7 @@ import './UpdateCard.css';
 const UpdateCard = ({ title, updateImage, content }) => {
   return (
     <div className="update-card">
-      <h3 className="update-title">{title}</h3>
+      <h5 className="update-title">{title}</h5>
       <img src={updateImage} alt="update" className="update-image" />
       <p className="update-content">{content}</p>
     </div>

@@ -6,7 +6,7 @@ const BenefitCard = ({ image, title, content }) => {
   return (
     <div className="benefit-card">
       <img src={image} alt={title} className='icon' />
-      <h3>{title}</h3>
+      <h4>{title}</h4>
       <ul>
         {content.map((item, index) => (
           <li key={index}>

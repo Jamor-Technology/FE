@@ -6,8 +6,8 @@
 
 .benefits-title {
   font-family: var(--font-family-heading);
-  font-size: var(--header-font-size-xlarge);
   color: var(--secondary-color);
+  font-size: var(--header-font-size-xlarge);
   margin-bottom: 132px;
 }
 

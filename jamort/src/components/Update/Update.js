@@ -40,7 +40,7 @@ const Updates = () => {
 
   return (
     <div className="update-container">
-      <h2 className='stay-update'>Stay Updated With What We’re Doing</h2>
+      <h3 className='stay-update'>Stay Updated With What We’re Doing</h3>
       <p className='monthly-newsletter'>
         Stay informed and inspired with Jamor Tech's Monthly Newsletter! Each
         edition is packed with the latest updates, expert insights, and
