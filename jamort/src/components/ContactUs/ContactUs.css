@@ -1,0 +1,52 @@
+.contact-us-container {
+  padding: 100px 48px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-card {
+  background-color: white;
+  border-radius: var(--border-radius-small);
+  padding: var(--padding-medium);
+  max-width: 920px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-us-header {
+  font-family: var(--font-family-heading);
+  font-size: var(--header-font-size-large);
+  color: var(--text-secondary-color-purple);
+  margin-bottom: var(--spacing-medium);
+  margin-top: 0;
+}
+
+.contact-inputs {
+  margin-bottom: 62px;
+}
+
+.contact-us-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-small);
+  padding: var(--padding-medium) calc(3 * var(--font-size-medium));
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 0;
+  background-color: var(--primary-color);
+  color: var(--text-secondary-color);
+}
+
+.contact-us-button img {
+  filter: brightness(0) invert(1);
+}
+
+.contact-us-button:hover {
+  background-color: var(--secondary-color);
+}
