@@ -28,9 +28,9 @@ html, body {
   gap: 40px;
 }
 
-.card h3 {
+.card h2 {
   font-family: var(--font-family-heading);
-  font-size: var(--header-font-size-xlarge);
+  font-size: var(--header-font-size-xxlarge);
   color: var(--secondary-color);
   font-weight: var(--font-weight-bold);
   margin-bottom: 0;
@@ -147,7 +147,7 @@ html, body {
   font-size: var(--font-size-medium);
   color: var(--primary-color);
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: 60px; 
   transition: color 0.3s;
 }

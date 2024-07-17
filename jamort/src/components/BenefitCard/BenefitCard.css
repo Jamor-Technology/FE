@@ -1,5 +1,36 @@
 /* styles.css */
+
+.benefit-card {
+  width: 400px;
+  text-align: left;
+}
+
+.benefit-card .icon {
+  width: 100px;
+  height: 100px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 8px;
+}
+
+.benefit-card h3 {
+  font-family: var(--font-family-heading);
+  font-size: var(--header-font-size-large);
+  color: var(--secondary-color);
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
 .benefit-card ul {
-  list-style: none; /* Removes the default list marker */
-  padding: 0; /* Removes default padding */
+  list-style: none; 
+  padding: 0;
+}
+
+.benefit-card li {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-medium);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 16px;
 }

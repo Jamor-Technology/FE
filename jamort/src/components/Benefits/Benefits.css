@@ -1,0 +1,19 @@
+.benefits-section {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+
+.benefits-title {
+  font-family: var(--font-family-heading);
+  font-size: var(--header-font-size-xlarge);
+  color: var(--secondary-color);
+  margin-bottom: 132px;
+}
+
+.benefits-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}

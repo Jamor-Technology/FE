@@ -8,7 +8,7 @@ const ServiceCard = ({ iconSrc, title, description, learnMoreLink, arrowIconSrc 
             <img src={iconSrc} alt={title} className='service-icon'></img>
             <h3 className='service-title'>{title}</h3>
             <p className='service-description'>{description}</p>
-            <a className="learn-more" href={learnMoreLink}>
+            <a className="learn-more-service" href={learnMoreLink}>
               Learn More
               <img 
                 className="learn-more-icon"
