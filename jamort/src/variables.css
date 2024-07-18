@@ -1,25 +1,59 @@
 /* variables.css */
+:root {
+/* Font Typography */
+--font-family-body: 'Arimo Hebrew Subset';
+--font-family-heading: 'Abril fatface';
+
 
 /* Colors */
-:root {
-  --primary-color: #007bff;
-  --secondary-color: #6c757d;
-  --background-color: #f8f9fa;
-  --text-color: #343a40;
-  --color: var(--text-color);
-}
+  --primary-color: #240076;
+  --secondary-color: #00451a;
+  --background-color: #f5f5f5;
+  --secondary-background-color: #E0DAF2;
+  --text-primary-color: #000000;
+  --text-secondary-color: #ffffff;
+  --text-secondary-color-purple: #240076;
+  --text-accent-color: #00451A;
+  --border-color: #240076;
 
-/* Typography */
-:root {
-  --font-family: 'Roboto', sans-serif;
-  --font-size-base: 16px;
+
+/* Body Paragraph Font sizes */
+  --font-size-xsmall: 12px;
+  --font-size-small: 16px;
+  --font-size-medium: 18px;
   --font-size-large: 24px;
-  --font-size-small: 12px;
-}
 
-/* Spacing */
-:root {
-  --spacing-small: 8px;
-  --spacing-medium: 16px;
-  --spacing-large: 24px;
+/* Header font size */
+  --header-font-size-xsmall: 16px;
+  --header-font-size-small: 24px;
+  --header-font-size-medium: 28px;
+  --header-font-size-large: 32px;
+  --header-font-size-xlarge: 36px;
+  --header-font-size-xxlarge: 40px;
+
+/* Font weight */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+/* Line height */
+  --line-height-default: 24px;
+
+/* Border radius */
+  --border-radius-small: 10px;
+  --border-radius-large: 50px;
+
+/* padding */
+  --padding-xsmall: 10px;
+  --padding-small: 28px;
+  --padding-medium: 32px;
+  --padding-large: 40px;
+
+/* Spacing gap */
+  --spacing-xsmall: 10px;
+  --spacing-small: 20px;
+  --spacing-medium: 32px;
+  --spacing-large: 40px;
+  --spacing-xlarge: 60px;
 }

@@ -1,0 +1,61 @@
+.update-container {
+  text-align: center;
+  background-color: var(--secondary-background-color);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.update-container h3 {
+  font-family: var(--font-family-heading);
+  color: var(--secondary-color);
+  font-size: var(--header-font-size-xlarge);
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.update-container p {
+  font-family: var(--font-family-body);
+  color: var(--text-primary-color);
+  font-size: var(--font-size-small);
+  margin-bottom: 32px;
+}
+
+.update-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 48px;
+}
+
+.explore-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-small);
+  padding: var(--padding-medium) calc(3 * var(--font-size-medium));
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 0;
+  background-color: var(--primary-color);
+  color: var(--text-secondary-color);
+}
+
+.explore-button img {
+  filter: brightness(0) invert(1);
+}
+
+.explore-button:hover {
+  background-color: var(--secondary-color);
+}

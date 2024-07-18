@@ -1,0 +1,21 @@
+.partners-section {
+  text-align: center;
+  padding: 50px 55px;
+}
+
+.partners-section h3 {
+  font-size: var(--header-font-size-xlarge);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-secondary-color-purple);
+  margin-bottom: var(--spacing-medium);
+  margin: 0;
+
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
