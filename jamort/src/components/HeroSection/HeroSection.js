@@ -44,7 +44,7 @@ const HeroSection = () => {
               </div>
               <span className="testimony">Over 110k+ professionals trained.</span>
               <a href="#learn-more" className="learn-more">
-                Learn More <img src={arrowIcon} alt="arrow" />
+                Hire a Tech <img src={arrowIcon} alt="arrow" />
               </a>
             </div>
           </div>
