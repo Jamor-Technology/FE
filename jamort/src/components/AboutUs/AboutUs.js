@@ -4,6 +4,7 @@ import aboutUsImage1 from "../../assets/images/image-aboutus1.png";
 import aboutUsImage2 from "../../assets/images/image-aboutus2.png";
 import aboutUsImage3 from "../../assets/images/image-aboutus3.png";
 import arrowIcon from "../../assets/icons/arrow.svg";
+import "./AboutUs.css";
 
 const AboutUs = () => {
   const aboutUsCards = [
@@ -23,7 +24,7 @@ const AboutUs = () => {
 
   return (
     <div className="about-us-section">
-      <h2 className="about-us-title">About Us</h2>
+      <h3 className="about-us-title">About Us</h3>
       <p className="about-us-content">
       JamorT is an organization dedicated to empowering new tech graduates from technology schools by providing them with valuable professional experience on live projects. Our mission is to bridge the gap between academia and the professional world, ensuring that graduates are well-prepared and employable in the competitive technology industry. We achieve this by offering opportunities to build them professional experience and portfolios and facilitating collaborations with companies in need of tech talent.</p>
       <div className="about-us-cards">
