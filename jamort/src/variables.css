@@ -9,6 +9,7 @@
   --primary-color: #240076;
   --secondary-color: #00451a;
   --background-color: #f5f5f5;
+  --secondary-background-color: #E0DAF2;
   --text-primary-color: #000000;
   --text-secondary-color: #ffffff;
   --text-secondary-color-purple: #240076;
@@ -27,7 +28,8 @@
   --header-font-size-small: 24px;
   --header-font-size-medium: 28px;
   --header-font-size-large: 32px;
-  --header-font-size-xlarge: 40px;
+  --header-font-size-xlarge: 36px;
+  --header-font-size-xxlarge: 40px;
 
 /* Font weight */
   --font-weight-light: 300;

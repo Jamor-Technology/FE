@@ -11,6 +11,7 @@ const ContactInput = ({ label, icon, placeholder }) => {
         </div>
         <input className='input-field' placeholder={placeholder} />
       </div>
+      <div className='input-underline'></div>
     </div>
     ); 
 };

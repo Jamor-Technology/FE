@@ -3,6 +3,8 @@ import BenefitCard from "../BenefitCard/BenefitCard";
 import officeBag from "../../assets/images/office-bag.png";
 import powerOfPen from "../../assets/images/power-of-pen.png";
 import macbookPro from "../../assets/images/macbook-pro.png";
+import "./Benefits.css";
+
 
 const Benefits = () => {
   const benefits = [
@@ -46,7 +48,7 @@ const Benefits = () => {
 
   return (
     <div className="benefits-section">
-      <h2 className="benefits-title">Benefits for joining Jamor Technology</h2>
+      <h2 className="benefits-title">What Makes us Different</h2>
       <div className="benefits-cards">
         {benefits.map((benefit, index) => (
           <BenefitCard

@@ -21,7 +21,7 @@ const Footer = () => {
     },
     {
       title: 'Resources',
-      items: ['Getting Started', 'Training and Certification', 'Mentoring', 'JamorTech Partners'],
+      items: ['Getting Started', 'Training and Certification', 'Mentoring', 'JamorTech Partners', 'Careers'],
     },
   ];
 

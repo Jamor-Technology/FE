@@ -15,7 +15,7 @@ const HeroSection = () => {
       <div className="hero-body">
         <div className="left-content">
           <div className="card">
-            <h3>Empower Your Potential with Jamor Technology</h3>
+            <h2>Empower Your Potential with Jamor Technology</h2>
             <p>
               Join us on a journey of discovery, growth, and transformation. Whether you&#39;re looking to be more skillful
               in your tech career, stay ahead of industry trends, or collaborating on a real-time project, Jamor Technology

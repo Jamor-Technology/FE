@@ -1,0 +1,36 @@
+.contact-input {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.input-label {
+  display: block;
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-large);
+  color: var(--text-primary-color);
+  margin-bottom: 24px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.input-icon {
+  margin-right: 8px;
+}
+
+.input-field {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-small);
+}
+
+.input-underline {
+  height: 1px;
+  background-color: var(--border-color);
+  margin-top: 8px;
+}
