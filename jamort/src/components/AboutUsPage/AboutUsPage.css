@@ -1,0 +1,209 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.first-hero{
+    background: url(../../assets/images/about-hero.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.first-hero > h2{
+    font-family: Abril Fatface;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #fff;
+
+}
+
+.aboutus-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.aboutus-section > h2 {
+    font-family: Abril Fatface;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+    color: #00451A;
+
+
+    
+}
+.aboutus-section > p {
+    font-family: Arimo Hebrew Subset;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #231F20;
+    width: 60%;
+    
+}
+
+.aboutus-hero{
+    background: #E0DAF2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+
+}
+
+.inner-mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.inner-mission > h4 {
+    font-family: Abril Fatface;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+    color: #00451A;
+}
+.inner-mission > p {
+    font-family: Arimo Hebrew Subset;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #231F20;
+    width: 60%;
+}
+
+.core-container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.core-container > h2 {
+    font-family: Abril Fatface;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+    color: #00451A;
+}
+
+.core-content {
+    display: flex;
+    background: var(--Purple, #240076);
+    padding: 40px;
+    gap: 25px;
+    border-radius: 15px;
+
+}
+
+.core-writeup {
+    display: flex;
+    flex-direction: column;
+    color: #fff;   
+    width: text-wrap;
+}
+.core-writeup > h4 {
+    font-family: Abril Fatface;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+ 
+    
+ 
+}
+.core-writeup > p {
+    font-family: Abril Fatface;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;    
+   
+}
+
+.horizontal-line {
+
+    display: flex;
+    align-items: center;
+    height: 3px;
+    background-color: #231F20;
+    justify-content: center;
+    margin: 0 190px
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.team-container > h2 {
+    font-family: Abril Fatface;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 94px;
+    text-align: center;
+    color: #00451A;
+}
+
+.team-content {
+    display: flex;
+    gap: 30px;
+}
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 10px;
+}
+
+.partners-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.partners-container > h2 {
+    font-family: Abril Fatface;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 94px;
+    text-align: center;
+    color: #00451A;
+}
+
+.partners-content {
+    display: flex;
+    gap: 50px;
+}
+
+.partners-content > img {
+    width: auto;
+    height: 140px;
+}

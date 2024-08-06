@@ -8,6 +8,7 @@ import VerifyEmail from './screens/VerifyEmail';
 import ChooseNewPassword from './screens/ChooseNewPassword';
 import ResetPasswordSuccess from './screens/ResetPasswordSuccess';
 import OurServices from './screens/OurServices';
+import AboutUsPage from './components/AboutUsPage/AboutUsPage';
 import './variables.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/choose-new-password" element={<ChooseNewPassword />} />
         <Route path="/reset-password-success" element={<ResetPasswordSuccess />} />
         <Route path="/our-services" element={<OurServices />} />
+        <Route path="/aboutuspage" element={<AboutUsPage />} /> 
       </Routes>
     </Router>
   );
